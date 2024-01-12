@@ -1,7 +1,17 @@
 {
   "name": "ip-fetcher",
   "version": "1.0.0",
-  "description": "A simple web page for fetching client IP information",
+  "description": "A simple, serverless web page for fetching client IP information",
   "author": "Mahesh Bandara Wijerathna (m4heshd) <m4heshd@gmail.com>",
-  "license": "MIT"
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m4heshd/ip-fetcher.git"
+  },
+  "scripts": {
+    "serve": "node serve.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.18.2"
+  }
 }
