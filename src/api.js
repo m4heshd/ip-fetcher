@@ -1,5 +1,5 @@
-addEventListener('DOMContentLoaded', (event) => {
-    let dataNode = document.querySelector('.data');
+addEventListener('DOMContentLoaded', () => {
+    let dataNode = document.querySelector('#data');
 
     fetch('https://freeipapi.com/api/json')
         .then((res) => {
@@ -19,6 +19,8 @@ addEventListener('DOMContentLoaded', (event) => {
                 });
         })
         .catch((error) => {
-            console.log(error);
+            console.error(error);
+            dataNode.classList.add('error');
+            dataNode.innerHTML = error;
         });
 });
