@@ -1,6 +1,6 @@
 {
   "name": "ip-fetcher",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A simple, serverless web page for fetching client IP information",
   "author": "Mahesh Bandara Wijerathna (m4heshd) <m4heshd@gmail.com>",
   "repository": {
