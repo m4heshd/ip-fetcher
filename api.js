@@ -1,7 +1,7 @@
 addEventListener('DOMContentLoaded', () => {
     let dataNode = document.querySelector('#data');
 
-    fetch('https://freeipapi.com/api/json')
+    fetch('https://free.freeipapi.com/api/json')
         .then((res) => {
             res
                 .json()
